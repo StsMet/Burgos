@@ -221,14 +221,10 @@ button{
     padding-top: 110px;
     padding-bottom: 106px;
 }
-.footer-logo{
-  /* --------------  margin-right: 10%; ----------------------- */
-}
-.footer1{
-    
+ /* --------------  margin-right: 10%; ----------------------- */
+.footer1{   
     display: flex;
     justify-content: space-between;
-    
 }
 
 .basic-item>a{
@@ -253,7 +249,6 @@ button{
 .info{
     display: flex;
     justify-content: space-between;
-    width: 80%;
 }
 
 .basic-item:last-child{
@@ -282,4 +277,48 @@ button{
     text-transform: uppercase;
     color: #fbb731;
     display: flex;
+}
+
+/*adaptive*/
+@media (max-width:768px) {
+    .container{
+        padding: 0 15px;
+    }
+    .menu>li{
+        margin-right: 22px;
+    }
+    .header-bottom{
+        background-position: center;
+        
+    }
+    .banner{
+        background-position-x: -74px;
+        padding-left: 40px;
+        margin-top: 72px;
+        margin-bottom: 80px;
+    }
+    .burgers-item>img{
+        width: 359px;
+    }
+    .basic{
+        margin-right: 86px;
+        margin-left: 77px;
+    }
+    .info-basic{
+        margin-right: 0px;
+
+    }
+    .tel{
+        margin-left: 77px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: flex-start;
+
+    }
 }
