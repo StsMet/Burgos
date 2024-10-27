@@ -218,11 +218,11 @@ button{
 
 .footer{
     background: #1e2f40;
-    padding-top: 110px;
-    padding-bottom: 106px;
+    padding-top: 5%;
+    padding-bottom: 6%;
 }
- /* --------------  margin-right: 10%; ----------------------- */
-.footer1{   
+
+.footer1{    
     display: flex;
     justify-content: space-between;
 }
@@ -249,6 +249,7 @@ button{
 .info{
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 
 .basic-item:last-child{
@@ -277,9 +278,157 @@ button{
     text-transform: uppercase;
     color: #fbb731;
     display: flex;
+   
+}
+.burger-menu{
+    display: none !important;
+}
+.modal{
+    display: none;
+}
+.header-banner{
+        background: linear-gradient(180deg, #0c4c7b 0%, #1e2f40 100%);
+        padding: 170px 0;
+}
+.time{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #fbb731;
+}
+.title-main{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 117%;
+    text-transform: uppercase;
+    color: #faf9f9;
+}
+.ad{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    color: #dedede;
+    max-width: 521px;
+    padding-bottom: 42px;
+}
+.header>a{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e2f40;
+    background: #fbb731;
+    padding: 20px 45px;
+    border-radius: 5px;
+    
+}
+.header{
+    max-width: 580px;
+    position: relative;
+}
+.burger-bg{
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.burger-bg>img{
+    width: 829px;
+    height: 861px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 262px;
+}
+.line-gradient{
+    width: 432px;
+    height: 862px;
+    background: linear-gradient(2deg, #f37335 0%, #fbb731 100%, #fdc830 100%);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 436px;
+}
+.banners{
+    display: flex;
+    justify-content: space-between;
+    margin: 181px 0;
+}
+.banner-1{
+    background-image: url(../img/banner1.png);
+    padding:116px 139px 116px 50px;
+}
+.banner-2{
+    background-image: url(../img/banner2.png);
+    padding:102px 177px 102px 50px;
+}
+.banner-1>p{
+    max-width: 392px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #faf9f9;
+}
+.banner-1>h1{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner-1>button{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: #f37335;
+    border-radius: 14px;
+    padding: 5px 18px;
+}
+.banner-2>h1{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 127%;
+    color: #fff;
+}
+.banner-2>p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #faf9f9;
+    max-width:300px ;
+}
+.banner-2>button{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e2f40;
+    background: #fbb731;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 170px;
+    height: 58px;
 }
 
+
 /*adaptive*/
+
+
 @media (max-width:768px) {
     .container{
         padding: 0 15px;
@@ -301,8 +450,8 @@ button{
         width: 359px;
     }
     .basic{
-        margin-right: 86px;
-        margin-left: 77px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .info-basic{
         margin-right: 0px;
@@ -319,6 +468,121 @@ button{
         flex-wrap: wrap;
         justify-content: center;
         justify-content: flex-start;
-
+        justify-content: space-between;
     }
+    
 }
+
+@media(max-width:320px ){
+        .logo>img{
+            width: 116px;
+        }
+        .menu{
+            display: none;
+        }
+        .burgers-item>img{
+            width: 139px;
+        }
+        .burgers-item>h3{
+            font-size: 13px;
+            margin-top: 7px;
+        }
+        .burgers-item>p{
+            margin-bottom: 7px;
+        }
+        .burgers-item>button{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .tel{
+            margin-left: 0;
+            margin-top: 0;
+        }
+        .basic{
+            margin-right: 0;
+            margin-left: -64px;
+            margin-top: 29px;
+        }
+        .header-bottom>p{
+            font-size: 12px;
+        }
+        .header-bottom>h1{
+            font-size: 38px;
+        }
+        .header-bottom{
+            background-image: url(../img/Group\ 3.png);
+            max-height: 253px;
+        }
+        .banner{
+            background-image: url(../img/yui.png);
+            margin-top: 33px;
+            margin-bottom: 50px;
+            padding-top: 34px;
+            padding-bottom: 34px;
+            background-position-x: unset;
+        }
+        .text-banner{
+            max-width: 247px;
+        }
+        .marker{
+            margin-bottom: 3px;
+        }
+        .banner>button{
+            padding-left: 11px;
+            padding-right: 11px;
+
+        }
+        .title{
+            font-size: 27px;
+            margin-bottom: 24px;
+        }
+        .tel{
+            order: -1;
+            margin-left: 51px;
+        }
+        .info-basic{
+            margin-top: 33px;
+            margin-left: -64px;
+        }
+        .footer1{
+                padding: 61px 0;
+        }
+        .burger-menu{
+            display: block !important;
+        }
+        .modal{
+            display: none;
+            position: absolute;
+            top: 20px;
+            background: #fff8dc;
+            padding: 40px 0;
+            width: 100%;
+        }
+        .close{
+            background: transparent;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        .menu-modal{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }        
+        .menu-modal>li{
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 120%;
+            color: #443737;
+            margin-bottom: 23px;
+        }
+        .menu-modal>li:last-child{
+            margin-bottom: 0
+        }
+        .active{
+            border-bottom: 3px solid #FFC725;
+            border-radius: 1px;
+        }
+}
+
