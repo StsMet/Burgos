@@ -429,7 +429,7 @@ button{
 /*adaptive*/
 
 
-@media (max-width:768px) {
+@media (max-width:768px){
     .container{
         padding: 0 15px;
     }
@@ -469,6 +469,56 @@ button{
         justify-content: center;
         justify-content: flex-start;
         justify-content: space-between;
+    }
+    .title-main{
+        font-size: 86px
+    }
+    .time{
+        font-size: 22px;
+    }
+    .ad{
+        font-size: 14px;
+        max-width: 385px;
+    }
+    .burger-bg>img{
+        width: 496px;
+        height: 516px;
+        right: -122px;
+        top: 311px;
+    }
+    .line-gradient{
+        right: 15px;
+        width: 198px;
+        height: 741px;
+    }
+    .header{
+        margin-left: 34px;
+    }
+    .banner-1>button{
+        font-size: 14px;
+    }
+    .banner-1>p{
+        font-size: 15px;
+    }
+    .banner-1{
+        padding: 44px 52px 44px 30px;
+        width: 280px;
+        height: 211px;
+    }
+    .banner-2>button{
+        font-size: 14px;
+        line-height: 129%;
+    }
+    .banner-2>p{
+        width: 301px;
+    }
+    .banner-2{
+        padding: 60px 30px;
+        width: 302px;
+        height: 179px ;
+    }
+    .body{
+        width: 768px;
     }
     
 }
@@ -583,6 +633,102 @@ button{
         .active{
             border-bottom: 3px solid #FFC725;
             border-radius: 1px;
+        }
+        .time{
+            font-family: "Nunito Sans", sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 195%;
+            text-transform: uppercase;
+            color: #fbb731;
+        }
+        .title-main{
+            font-family: "Nunito Sans", sans-serif;
+            font-weight: 800;
+            font-size: 58px;
+            line-height: 120%;
+            text-transform: uppercase;
+            color: #faf9f9;
+        }
+        .ad{
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 140%;
+            color: #dedede;
+        }
+        .burger-bg>img{
+            width: 298px;
+            height: 297px;
+            top: 375px;
+            right: -101px;
+        }
+        .line-gradient{
+            display: none;
+        }
+        .header{
+            margin-left: 15px;
+            margin-top:42px ;
+        }
+        .banner-1{
+            width: 247px;
+            height: 172px;
+            padding:40px 58px 58px 15px;
+            margin-bottom: 22px;
+            background-position-x: -77px;
+            background-position-y: -44px;
+            margin-top:  92px;
+        }
+        .banner-1>button{
+            width: 105px;
+            height: 25px;
+        }
+        .banner-1>p{
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 150%;
+            color: #faf9f9;
+            max-width:247px ;
+        }
+        .banners{
+            display: flex;
+            flex-direction: column;
+        }
+        .banner-2>h1{
+            font-family: "Nunito Sans", sans-serif;
+            font-weight: 700;
+            font-size: 39px;
+            line-height: 144%;
+            color: #fff;
+            max-width: 206px;
+        }
+        .banner-2>p{
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 150%;
+            color: #faf9f9;
+            max-width: 266px;
+        }
+        .banner-2>button{
+            width: 133px;
+            height: 53px;
+        }
+        .banner-2{
+            width: 269px;
+            height: 190px;
+            background-position-x: -117px;
+            background-position-y: -44px;
+            margin-bottom:61px ;
+            padding:35px 38px 44px 12px;
+        }
+        .banners{
+            margin: 0;
+            margin-left: -15px;
+        }
+        .header-banner{
+            padding-top: 42px ;
         }
 }
 
