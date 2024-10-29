@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;  
+    overflow-x: hidden;
 }
 h1,h2,h3{
     padding:0;
@@ -504,7 +505,11 @@ button{
         padding: 44px 52px 44px 30px;
         width: 280px;
         height: 211px;
+        background-position-x: -112px;
+        background-position-y: -34px;
     }
+
+
     .banner-2>button{
         font-size: 14px;
         line-height: 129%;
@@ -524,6 +529,7 @@ button{
 }
 
 @media(max-width:320px ){
+      
         .logo>img{
             width: 116px;
         }
@@ -563,6 +569,11 @@ button{
             background-image: url(../img/Group\ 3.png);
             max-height: 253px;
         }
+
+        .header-banner{
+            overflow:hidden;
+        }
+       
         .banner{
             background-image: url(../img/yui.png);
             margin-top: 33px;
@@ -634,6 +645,11 @@ button{
             border-bottom: 3px solid #FFC725;
             border-radius: 1px;
         }
+        .burger-bg>img{
+            width: 829px;
+            height: 861px;
+        }
+        
         .time{
             font-family: "Nunito Sans", sans-serif;
             font-weight: 700;
